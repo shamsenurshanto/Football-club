@@ -21,8 +21,15 @@ body{
     padding-top: 100px;
     margin-top: 0%;
     
+
+    
    
 }
+/* .intro-section:hover{
+    transform: scale(.9);
+    transition: transform 1s ease-in-out 2s;
+    
+} */
 .intro-section img{
    width: 489px;
     height: 418px ;
@@ -45,7 +52,12 @@ body{
     margin-bottom: 240px;
     margin-left:156px ;
     margin-right: 90px;
+
     
+}
+.intro-section :hover .button-live{
+   background-color: green;
+    transition:  background-color 1s ease-in;
 }
 .button-live{
     background-color: #E02C6D;
@@ -237,7 +249,7 @@ html {
         margin-left: 4px ;
         
     }
-   
+    
     .button-live{
         background-color: #E02C6D;
         display: flex;
@@ -247,7 +259,11 @@ html {
         border-radius: 10px;
         width: 40%;
         text-align: center;
+       
 
+    }
+    .button-live:hover{
+       
     }
     .intro-section-child-div1 h1{
         
